@@ -33,25 +33,6 @@ fetch(url)
     });
 
 
-const meusNumeros = ["02","03","09","13","31","50"]; 
-function comparar() {
-  const input = document.getElementById('meusNumeros').value;
-  const meusNumeros = input.split(',').map(n => parseInt(n.trim()));
-  
-  const coincidencias = meusNumeros.filter(n => dezenasSorteadas.includes(n));
-  const resultado = document.getElementById('resultadoComparacao');
-
-  if (coincidencias.length > 0) {
-    resultado.textContent = `Você acertou: ${coincidencias.join(', ')}`;
-  } else {
-    resultado.textContent = 'Infelizmente nenhum acerto dessa vez 😢';
-  }
-}
-
-
-
-
-
 
 
 
