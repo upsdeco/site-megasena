@@ -1,2 +1,2 @@
-# site-megasena
-site da mega sena com nossos números.
+# Site Mega-Sena
+Números do último sorteio da Mega-Sena.
